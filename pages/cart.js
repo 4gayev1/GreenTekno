@@ -1,18 +1,18 @@
 import Navbar from "./navbar/navbar"
 import SearchBar from "./searchBar/searchBar"
-import Body from "./body/body"
+import CartItem from "./cartItem/cartItem"
 import Footer from "./footer/footer"
 
-const index = () => {
+
+const cart = () => {
   return (
     <div>
       <Navbar/>
       <SearchBar/>
-      <Body/>
+      <CartItem/>
       <Footer/>
     </div>
   )
 }
 
-export default index
-
+export default cart

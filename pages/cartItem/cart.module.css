@@ -1,0 +1,56 @@
+.main{
+    width: 1500px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 600px;
+}
+
+.img{
+    width: 150px;
+}
+.approve_box{
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    border:2px solid black;
+}
+.input{
+    width: 40px;
+    height: 20px;
+}
+
+.btn{
+    background-color: #00A651;
+    color: white;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+}
+
+.product_div{
+    display: flex;
+    flex-wrap: wrap;
+    width:1000px;
+    margin-top: 40px;
+}
+.product_item{
+    width: 295px;
+    height: 400px;
+    border-radius: 30px;
+    border: 1px solid gray;
+    margin: 5px;
+    cursor: pointer;
+}
+.product_img{
+    width: 200px;
+    position: relative;
+    left:50px;
+}
+
